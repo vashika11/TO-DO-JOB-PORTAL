@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do Job Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>To-Do Job Portal</h1>
+  </header>
+
+  <main>
+    <section class="todo-section">
+      <h2>📝 Job Tasks</h2>
+      <div class="todo-input">
+        <input type="text" id="todo-input" placeholder="Enter a task...">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="todo-list"></ul>
+    </section>
+
+    <section class="jobs-section">
+      <h2>💼 Job Listings</h2>
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p>Company: Webify</p>
+        <p>Location: Remote</p>
+        <button class="apply-btn">Apply</button>
+      </div>
+      <div class="job-card">
+        <h3>UI/UX Designer</h3>
+        <p>Company: DesignPros</p>
+        <p>Location: Bangalore</p>
+        <button class="apply-btn">Apply</button>
+      </div>
+      <!-- Add more job cards as needed -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f7f8;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.todo-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.todo-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.todo-input button {
+  padding: 10px 15px;
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-input button:hover {
+  background-color: #0b5ed7;
+}
+
+#todo-list li {
+  margin-bottom: 10px;
+  list-style: none;
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#todo-list li button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.job-card {
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #f1f3f5;
+  border-radius: 5px;
+}
+
+.apply-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
